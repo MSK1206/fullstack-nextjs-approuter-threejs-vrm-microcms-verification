@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
-import { Rammetto_One } from 'next/font/google';
+import { Paytone_One } from 'next/font/google';
 import './globals.css';
 
-const Rammetto = Rammetto_One({
+const Paytone = Paytone_One({
   subsets: ['latin'],
   weight: '400',
 });
@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='ja' data-theme='light'>
-      <body className={Rammetto.className}>{children}</body>
+      <body className={Paytone.className}>{children}</body>
     </html>
   );
 }
